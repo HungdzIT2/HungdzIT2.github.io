@@ -595,7 +595,7 @@ ul li {
     .this_is_content_home section {
       margin-top: 5%; }
     .this_is_content_home .learn_more {
-      margin-top: 10%; }
+      margin-top: 4%; }
 
   .slide_home div:nth-child(1) .video_home {
     width: 300px;
@@ -1981,5 +1981,20 @@ ul li {
 
   .text_form_content_contact_us {
     padding-bottom: 20px; } }
+@media (max-width: 500px) {
+  .this_content_services div ul {
+    margin-bottom: 15px; }
+
+  .this_content_services div ul li {
+    width: 95%; }
+
+  .this_content_services div {
+    margin-left: 7%; }
+
+  .this_content_services .button_bret_form {
+    margin-left: 0; }
+
+  .this_content_services div a {
+    font-size: 20px; } }
 
 /*# sourceMappingURL=style.css.map */
